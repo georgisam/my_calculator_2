@@ -13,6 +13,10 @@ function inv() {
 var num = document.getElementById("n1");
 num.value = 1/num.value;
 }
+function sine() {
+var num = document.getElementById("n1");
+num.value = Math.sin(num.value);
+}
 </script>
 </head>
 <body>
@@ -23,6 +27,8 @@ Number:
 <button onclick="cube()"> x^3 </button>
 <button onclick="cube2()"> x^2 </button>
 <button onclick="inv()"> 1/x </button>
+<button onclick="sine()"> sine </button>
+
 </p>
 </body>
 </html>
